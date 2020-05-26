@@ -60,7 +60,7 @@ public class EditPatientChartNotes extends ProjectSpecificMethods {
 		}
 	}
 	
-	@Test
+	@Test(enabled = true)
 	public void TC002_verify_user_is_able_to_select_the_physical_examination_checkbox_successfully() {
 		String testName = "TC002_verify_user_is_able_to_select_the_physical_examination_checkbox_successfully";
 		// setting Report data
